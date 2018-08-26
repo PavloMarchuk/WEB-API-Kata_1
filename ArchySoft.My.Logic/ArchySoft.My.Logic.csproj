@@ -10,7 +10,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ArchySoft.Shared\ArchySoft.Shared.csproj" />
+    <ProjectReference Include="..\ArchySoft.Shared.Data\ArchySoft.Shared.Data.csproj" />
   </ItemGroup>
 
   <ItemGroup>

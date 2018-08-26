@@ -3,15 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2047
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArchySoft.My.Api", "ArchySoft.My.Api\ArchySoft.My.Api.csproj", "{300D471B-A236-4A92-A7CD-EC3F6B40F8D7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArchySoft.My.Api", "ArchySoft.My.Api\ArchySoft.My.Api.csproj", "{300D471B-A236-4A92-A7CD-EC3F6B40F8D7}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "My", "My", "{25089B8C-37C7-4C68-A95F-9AB6AD2F9734}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{5B447FA8-512A-4833-B976-159B9ADE6719}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArchySoft.My.Logic", "ArchySoft.My.Logic\ArchySoft.My.Logic.csproj", "{81061656-5047-4050-BE08-EB43C9949E12}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArchySoft.My.Logic", "ArchySoft.My.Logic\ArchySoft.My.Logic.csproj", "{81061656-5047-4050-BE08-EB43C9949E12}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArchySoft.Shared", "ArchySoft.Shared\ArchySoft.Shared.csproj", "{C03129AE-E801-4E4C-85BC-5F120149E4DC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArchySoft.Shared.Data", "ArchySoft.Shared.Data\ArchySoft.Shared.Data.csproj", "{C6734C0A-0EA9-4533-9266-99D3EA52F646}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,10 +27,10 @@ Global
 		{81061656-5047-4050-BE08-EB43C9949E12}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{81061656-5047-4050-BE08-EB43C9949E12}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{81061656-5047-4050-BE08-EB43C9949E12}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C03129AE-E801-4E4C-85BC-5F120149E4DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C03129AE-E801-4E4C-85BC-5F120149E4DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C03129AE-E801-4E4C-85BC-5F120149E4DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C03129AE-E801-4E4C-85BC-5F120149E4DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6734C0A-0EA9-4533-9266-99D3EA52F646}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6734C0A-0EA9-4533-9266-99D3EA52F646}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6734C0A-0EA9-4533-9266-99D3EA52F646}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6734C0A-0EA9-4533-9266-99D3EA52F646}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -38,7 +38,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{300D471B-A236-4A92-A7CD-EC3F6B40F8D7} = {25089B8C-37C7-4C68-A95F-9AB6AD2F9734}
 		{81061656-5047-4050-BE08-EB43C9949E12} = {25089B8C-37C7-4C68-A95F-9AB6AD2F9734}
-		{C03129AE-E801-4E4C-85BC-5F120149E4DC} = {5B447FA8-512A-4833-B976-159B9ADE6719}
+		{C6734C0A-0EA9-4533-9266-99D3EA52F646} = {5B447FA8-512A-4833-B976-159B9ADE6719}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A7EAFD74-2CCD-4A52-B01E-E0164BF5B25E}

@@ -1,6 +1,10 @@
-﻿namespace ArchySoft.My.Logic.Abstract.Repositories
+﻿using ArchySoft.Shared.Data.Entities;
+using System.Linq;
+
+namespace ArchySoft.My.Logic.Abstract.Repositories
 {
 	public interface IUserRepository
 	{
+		IQueryable<User> GetAll();
 	}
 }
