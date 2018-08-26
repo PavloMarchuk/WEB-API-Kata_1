@@ -8,6 +8,6 @@ namespace ArchySoft.My.Logic.Abstract.Services
 {
 	public interface IAuthService
 	{
-		TokenModel Login(LoginModel model);
+		AccessTokenModel Login(LoginModel model);
 	}
 }
