@@ -10,12 +10,14 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="2.1.1" />
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.1.3" />
     <PackageReference Include="Serilog.AspNetCore" Version="2.1.1" />
     <PackageReference Include="Serilog.Sinks.RollingFile" Version="3.3.0" />
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\ArchySoft.My.Logic\ArchySoft.My.Logic.csproj" />
     <ProjectReference Include="..\ArchySoft.Shared.Data\ArchySoft.Shared.Data.csproj" />
   </ItemGroup>
 
